@@ -43,15 +43,25 @@
  
 }
 
-.search-bar {
+.search{
     display: flex;
-    /* flex: 1;
-    flex-direction: row;
+     flex: 1;
+     height: 6vh;
+     margin-top: 8px;
+   
+     
+
+    /* flex-direction: row;
   height: 20px;
-  align-items: flex-end; */
-  max-width: 100%;
+  align-items: flex-end;  */
+  /* max-width: 100%; */
 
 } 
+.search input{
+    border-radius: 15px;
+    border:none ;
+    background-color:  rgb(209, 204, 204);
+}
 
 .chats-icon{
     display: flex;
