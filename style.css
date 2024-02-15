@@ -73,13 +73,13 @@ align-items: center;
 }
 .right-section-body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
 
 }
 .end-to-end{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     height: 6vh;
     align-items: center;
     justify-content: center;
@@ -92,12 +92,58 @@ align-items: center;
     padding-right: 15px;
     border-radius: 8px;
     color:rgb(181, 163, 163) ;
+    margin-bottom: 45px;
 }
 .end-to-end img{
     height: 20px;
     margin-right: 15px;
 }
-
+.today{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    color: gray;
+    font-size: 18px;
+    height: 45px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.061);
+    margin-left: 44vh;
+    margin-right: 81vh;
+    padding-left: 0px;
+}
+.first-p{
+    position: relative;
+   margin-left: 35px; 
+   margin-top: 15px;
+   width: 370px;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.196);
+   padding: 10px;
+   font-size:15px;
+   font-family: arial;
+   font-weight:550;
+   border-radius: 10px;
+   
+}
+.message-time{
+    position:absolute;
+    bottom:2px;
+    right: 2px;
+    color: gray;
+}
+.my-replies{
+    position: relative;
+    width: 300px;
+    background-color: rgb(163, 255, 163);
+    margin-right: 30px;
+    margin-left: 500px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.196);
+    padding: 10px;
+    font-size:15px;
+    font-family: arial;
+    font-weight:550;
+    border-radius: 10px;
+}
 .sidebar{
 
     position:fixed;
