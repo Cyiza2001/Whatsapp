@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgba(236, 236, 236, 0.387);
  
 
   
@@ -61,7 +61,7 @@ align-items: center;
 }
 .online img{
     height: 12px;
-    background-color:rgb(34, 134, 34) ;
+    background-color:  rgb(40, 174, 40) ;
     border-radius: 50%;
     margin-right: 4px;
 }
@@ -87,7 +87,7 @@ align-items: center;
     margin-left:30vh;
     margin-right: 30vh;
     font-size: 12px;
-    background-color: rgb(255, 214, 221);
+    background-color: rgba(255, 214, 221, 0.398);
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 8px;
@@ -144,6 +144,35 @@ align-items: center;
     font-weight:550;
     border-radius: 10px;
 }
+.chat-text-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    background-color: gray;
+
+}
+.chat-inputtype input {
+    width: 100%;
+     height:50px ;
+    /* margin: 5px 10px 5px 10px;  */
+    border: none;
+    border-radius:14px ;
+}
+.chat-emoji{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 14px;
+}
+.chat-inputtype{
+    flex: 6;
+}
+.chat-vn{
+    flex: 2;
+}
 .sidebar{
 
     position:fixed;
@@ -194,7 +223,7 @@ border-radius: 10px;
     flex: 1;
     height:6vh;
     border: none;
-    background-color: rgb(219, 219, 219);
+    background-color:rgba(236, 236, 236, 0.938);
     margin-right:0px;
     font-family: arial;
     font-size: 15px;
@@ -204,7 +233,7 @@ border-radius: 10px;
 .button1{
 height: 6vh;
 border: none;
-background-color: rgb(219, 219, 219);
+background-color:rgba(236, 236, 236, 0.938);
 border-radius: 10px 0 0  10px;
 padding-left: 13px;
 opacity: 0.7;
@@ -214,7 +243,7 @@ opacity: 0.7;
 .button2{
     height: 6vh;
     border: none;
-    background-color: rgb(219, 219, 219);
+    background-color:rgba(236, 236, 236, 0.938);
     border-radius: 0  10px 10px 0;
     padding-right: 13px;
     opacity: 0.7;
@@ -281,7 +310,7 @@ font-weight: bold;
     margin-top: 15px;
 }
 .chat-details button{
-    background-color:rgb(34, 134, 34);
+    background-color: rgb(40, 174, 40);
     border:none;
     border-radius:50%;
     height: 20px;
@@ -289,7 +318,7 @@ font-weight: bold;
     color: white;
 }
 .time {
-    color: rgb(34, 134, 34) ;
+    color:  rgb(40, 174, 40) ;
 }
 .questionmark{
     height: fit-content;
