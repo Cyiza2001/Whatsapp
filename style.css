@@ -6,19 +6,45 @@
 
 .app-container{
     display: flex;
+    position: fixed;
 
+}
+.message-container{
+    overflow:scroll;
+    height: 90vh;
 }
 
 .left-section{
      display: flex;
      flex-direction: row;
      flex:1;
-     max-width: 38%;  
+     max-width: 38%; 
 }
 .left-section-header{
-    height: 20vh;
-    background-color: red;
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width:38%;
+    /* background-color: red; */
 }
+.leftheaderstuff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70px;
+    margin-right: 10px;
+ 
+}
+.leftheaderstuff img {
+    height: auto;
+    width: auto;
+}
+
  
 .right-section{
     display: flex;
@@ -149,37 +175,40 @@ align-items: center;
     flex-direction: row;
     align-items: center;
     height: 70px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.114);
 
 }
 .chat-inputtype input {
     width: 100%;
-     height:50px ;
-    /* margin: 5px 10px 5px 10px;  */
+     height:40px ;
     border: none;
-    border-radius:14px ;
+    border-radius:20px ;
+    padding-left: 25px;
 }
 .chat-emoji{
     display: flex;
-    flex: 1;
     flex-direction: row;
     justify-content: space-between;
     margin-right: 15px;
     margin-left: 14px;
+    width: 70px;
 }
 .chat-inputtype{
-    flex: 6;
+    flex: 1;
 }
 .chat-vn{
-    flex: 2;
+    display: flex;
+    justify-content: center;
+    width: 70px;
 }
 .sidebar{
 
     position:fixed;
     left:5px;
-    top:30px;
+    top:35px;
     width:75px ;
     padding: 0px 1px;
+    /* background-color: aqua; */
 }
  
 .upper{
@@ -205,12 +234,6 @@ height: 40px;
 
 margin-top: 36px;
 border-radius: 10px;
-     
-
-    /* flex-direction: row;
-  height: 20px;
-  align-items: flex-end;  */
-  /* max-width: 100%; */
 
 } 
  .search-box{
@@ -218,6 +241,8 @@ border-radius: 10px;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 .search-box input {
     flex: 1;
@@ -277,7 +302,9 @@ font-weight: bold;
   flex-direction: column;
     flex: 1;
     margin-left: 80px;
-    height: 100vh;  
+    margin-top: 5px;
+    height:100%; 
+    /* background-color: red;  */
 } 
 .single-chat{
     display: flex;
